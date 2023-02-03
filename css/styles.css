@@ -12,8 +12,6 @@
   --main-link-color: #2e2f42;
   --activ-link-hover-color: #404bbf;
   --typical-lh: 1.5;
-
-  /* --second-title-color:  */
 }
 
 body {
@@ -35,7 +33,6 @@ body {
 }
 .header-logo {
   font-family: 'Raleway';
-  font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   display: flex;
@@ -75,6 +72,7 @@ body {
 }
 
 .address-tel, .address-mailo {
+  font-style: normal;
   font-weight: 400;
   font-size: var(--main-text-size);
   line-height: var(--typical-lh);
